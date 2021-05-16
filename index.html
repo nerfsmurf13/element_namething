@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Word to Element</title>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>
+        <span class="red">Word</span> to <span class="blue">Element</span>
+      </h1>
+      <p>Enter text that you would like to elementify!</p>
+      <form onsubmit="event.preventDefault();splitWord()">
+        <input id="convert-text" type="text" /><button onclick="" id="convert">
+          Go!
+        </button>
+      </form>
+      <div id="result"></div>
+      <div class="footer">
+        Created by <a href="http://edwardwilliams.me">Edward Williams</a>!
+      </div>
+    </div>
+  </body>
+</html>
